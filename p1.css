@@ -1,0 +1,143 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  .container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: #ff5757;
+    color: #fff;
+    padding: 1rem 0;
+  }
+  
+  .navbar .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .navbar .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar .nav-links a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: url('food.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 5rem 0;
+  }
+  
+  .hero h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .search-bar {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+  
+  .search-bar input {
+    padding: 0.5rem;
+    width: 60%;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .search-bar button {
+    padding: 0.5rem 1rem;
+    background-color: #ff5757;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Featured Restaurants */
+  .featured {
+    padding: 2rem 0;
+    text-align: center;
+  }
+  
+  .restaurant-list {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+  }
+  
+  .restaurant-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 1rem;
+    width: 30%;
+    text-align: center;
+  }
+  
+  .restaurant-card img {
+    width: 100%;
+    border-radius: 4px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #222;
+    color: #fff;
+  }
+  
+
+
+
+
+
+  *{
+    margin: 0;
+    padding: 0;
+}
+.img_1{
+    position: relative;
+}
+.head1{
+    position: absolute;
+    margin: 80px;
+    top: 30%;
+    font-size: 25px;
+    color: rgb(217, 217, 218);
+    margin-left: 550px;
+    text-align: center;
+}
+.navselect select{ 
+   height: 30px;
+   width: 100px;
+   border-radius: 5px;
+}
+.navselect input{ 
+    height: 30px;
+    width: 300px;
+    border-radius: 5px;
+ }
+ .border{
+    border: 2px solid transparent;
+ }
+ .border:hover{
+    border: 2px solid orange;
+ }
