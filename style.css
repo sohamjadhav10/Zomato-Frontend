@@ -10,11 +10,15 @@
     color: gray; 
   }
   
-  h1 {
+  /* h1 {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     font-size:  50px;
     margin-top: 250px;
+  } */
+  .low-res-container img{
+    margin-top: 250px;
+    width: 250px;
   }
   
   h2 {
@@ -91,7 +95,8 @@
   .search-input {
     padding: 10px;
     border: none;
-    border-radius: 5px;  
+    border-radius: 5px;
+    width: 400px;  
   }
 
   .search-button {
